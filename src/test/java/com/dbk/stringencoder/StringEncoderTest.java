@@ -49,7 +49,7 @@ public class StringEncoderTest {
      }
 
     /**
-     * Test string encoder for negative offset and special characters as input
+     * Test string encoder for negative offset and uppercase characters as input
      */
     @Test(expected = StringOutOfRangeException.class)
     public void testStringEncoderOutsideRangeAndUpperCase(){
